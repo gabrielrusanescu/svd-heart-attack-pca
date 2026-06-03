@@ -29,6 +29,22 @@ The file `proiect cu linalg.py` provides an optimized implementation using stand
 - **Analysis**: Provides weights/importance of features contributing to cardiovascular risk.
 - **Visualization**: Generates plots for explained variance and clusters patients by risk category.
 
+## Advantages
+
+- **Dimensionality Reduction**: Medical datasets often contain dozens of variables (e.g., age, blood pressure, cholesterol, weight, family history). The application effectively compresses all this information into just 2-3 "Principal Components," making the dataset much easier to manage.
+
+- **Identification of Dominant Risk Factors**: Through the function that displays weights (afisponderi), the application shows exactly which clinical variables have the strongest impact or dominate the formation of cardiovascular risk. There is no need for guesswork.
+
+- **Noise Filtering**: By eliminating components with very small singular values (the last ones in the table), the application discards measurement errors and statistical "noise," retaining only the strong patterns within the data.
+
+## Disadvantages
+
+- **Loss of direct interpretability (the biggest disadvantage)**: A doctor perfectly understands what "Blood Pressure = 140" means. However, Principal Component 1 is a mathematical equation (e.g., 0.5 x Blood Pressure + 0.3 x Age + 0.1 x Cholesterol). There is no clinical unit of measurement for "Component 1," which makes the result harder to explain to a patient.
+
+- **Sensitivity to anomalies (outliers)**: PCA is based on variance (squaring distances). If there are patients in the dataset with incorrectly entered data or extremely high/abnormal values, they will "strongly pull" the axes toward them, distorting the entire model.
+
+- **Maximum variance does not necessarily mean good prediction**: PCA looks for the directions in which the data spreads the most. However, it is possible that the maximum spread is driven by age, while the actual risk of heart attack is defined by a more subtle variable (with lower variance) that PCA discards into the lower components.
+
 ## Documentation 
 
 Documentation (`doc.pdf`) was made by [Edd12321](https://github.com/Edd12321)
