@@ -39,7 +39,3 @@ Documentation (`doc.pdf`) was made by [Edd12321](https://github.com/Edd12321)
 2. Run either implementation:
    - For custom version: `python proiect fara linalg.py`
    - For standard version: `python proiect cu linalg.py`
-
-## License
-
-This project is intended for educational use.
