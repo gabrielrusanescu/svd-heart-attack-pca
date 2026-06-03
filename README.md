@@ -54,5 +54,5 @@ Documentation (`doc.pdf`) was made by [Edd12321](https://github.com/Edd12321)
 
 1. Place your dataset `cardiovascular_risk_dataset.csv` in the project directory.
 2. Run either implementation:
-   - For custom version: `python proiect fara linalg.py`
+   - For custom version (without numpy functions such as np.linalg.svd, etc.): `python proiect fara linalg.py`
    - For standard version: `python proiect cu linalg.py`
