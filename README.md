@@ -5,12 +5,12 @@ This repository contains two implementations for analyzing cardiovascular risk d
 ## Versions
 
 ### 1. Custom Implementation (Without Linear Algebra Libraries)
-The file `proiect_fara_linalg.py` provides a custom implementation of SVD and PCA from scratch.
+The file `proiect fara linalg.py` provides a custom implementation of SVD and PCA from scratch.
 - **Key Techniques**: Implements Householder reflections for tridiagonalization and the QR algorithm to compute eigenvalues and eigenvectors without relying on high-level `numpy.linalg` routines.
 - **Purpose**: Educational exploration of numerical linear algebra algorithms.
 
 ### 2. Standard Implementation (Using `np.linalg`)
-The file `proiect_cu_linalg.py` provides an optimized implementation using standard NumPy linear algebra functions.
+The file `proiect cu linalg.py` provides an optimized implementation using standard NumPy linear algebra functions.
 - **Key Techniques**: Uses `np.linalg.svd` for efficient matrix decomposition.
 - **Purpose**: Provides a baseline for performance comparison and cleaner, more maintainable code for production-like environments.
 
@@ -33,8 +33,8 @@ The file `proiect_cu_linalg.py` provides an optimized implementation using stand
 
 1. Place your dataset `cardiovascular_risk_dataset.csv` in the project directory.
 2. Run either implementation:
-   - For custom version: `python proiect_fara_linalg.py`
-   - For standard version: `python proiect_cu_linalg.py`
+   - For custom version: `python proiect fara linalg.py`
+   - For standard version: `python proiect cu linalg.py`
 
 ## License
 
