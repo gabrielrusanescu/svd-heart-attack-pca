@@ -1,7 +1,7 @@
 # Cardiovascular Risk Analysis
 
 This repository contains two implementations for analyzing cardiovascular risk datasets using Principal Component Analysis (PCA) and Singular Value Decomposition (SVD).
-The dataset used is available at [https://www.kaggle.com/datasets/vishardmehta/heart-risk-progression-dataset](https://www.kaggle.com/datasets/vishardmehta/heart-risk-progression-dataset)
+The dataset used is available on [kaggle](https://www.kaggle.com/datasets/vishardmehta/heart-risk-progression-dataset)
 
 ## Versions
 
