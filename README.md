@@ -29,6 +29,10 @@ The file `proiect cu linalg.py` provides an optimized implementation using stand
 - **Analysis**: Provides weights/importance of features contributing to cardiovascular risk.
 - **Visualization**: Generates plots for explained variance and clusters patients by risk category.
 
+## Documentation 
+
+Documentation (`doc.pdf`) was made by [Edd12321](https://github.com/Edd12321)
+
 ## Usage
 
 1. Place your dataset `cardiovascular_risk_dataset.csv` in the project directory.
